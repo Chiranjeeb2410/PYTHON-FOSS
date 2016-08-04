@@ -1,0 +1,8 @@
+import openpyxl
+wb = openpyxl.load_workbook('assignment1.xlsx')
+a = sheet['A1']
+a.value
+b = sheet['B1']
+b.value
+print(int(a) + int(b))
+
